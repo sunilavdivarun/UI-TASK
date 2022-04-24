@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ui</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+        height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #ebdcdc;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      font-size: small;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 35px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ELEVEN40 PRO THEME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">SAMPLE PAGE</a></li>
+        <li><a href="#">PAGE LAYOUTS</a></li>
+        <li><a href="#">PAGE TEMPLATES</a></li>
+        <li><a href="#">THEME COLOURS</a></li>
+        <li><a href="#">CONTACT PAGE</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><b>ARCHIEVES</b></p>
+      <p><a href="#">February 2014</a></p>
+      <p><b>CONTRIBUTIONS</b></p>
+      <p><a href="#">Brian Gardner</a></p>
+      <p><a href="#">Lauren Mancke</a></p>
+      <p><a href="#">Nathan Rice</a></p>
+      <p><a href="#">Nick Croft</a></p>
+      <p><a href="#">Rafal Tomal</a></p>
+      <p><a href="#">Ron Rennick</a></p>
+      <p><b>META</b></p>
+      <p><a href="#">Log in</a></p>
+      <p><a href="#">Entries RSS</a></p>
+      <p><a href="#">Comments RSS</a></p>
+      <p><a href="#">WordPres.org</a></p>
+    </div>
+    <div class="col-sm-8 text-left">
+      <hr><b>Mobile responsive and HTML5 theme built for the Genesis Framework</b> </hr>
+      <h2><b>Sample Post With Threaded Comments</b></h2>
+      <h3>February 1, 2014 by Brian Gardner - 6 Comments</h3>
+      <img src="11.png"alt="Girl in a jacket" width="700" height="250">
+    <p>This is an example of a WordPress post, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many posts as you like in order to share with your readers what is on your mind.</p>
+    <p>This is an example of a WordPress post, you could edit this to put information about yourself or your site <a href="#">so readers know</a> where you are coming from. You can create as many posts as you like in order to share with your readers what is on your mind.This is an example of a WordPress post, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many posts as you like in order to share with your readers what is on your mind.</p>
+</div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <h1><b>THE 411 ON ME</b></h1>
+        <img src="12.png" width="200" height="200">
+        <p>Starbucks Addict. Nomad Theorist. Sarah McLachlan Fan. Founder,StudioPress. Partner, Copyblogger Media.<a href="#">More.</a> </p>
+        <form>
+            <label for="email">Email id:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <input type="submit" value="SUBSCIBE">
+        </form>
+        <hr>
+        <b>RECENT POST</b> 
+        <p><a href="#">Sample post with threaded Comments</a></p>   
+        <p><a href="#">Sample post with image aligned left</a></p> 
+        <p><a href="#">Sample post with image aligned right</a></p>     
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
